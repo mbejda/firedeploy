@@ -1,6 +1,6 @@
 {
   "name": "firedeploy",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Lightweight command line tool and dependency module for deploying single page applications to Firebase.",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,6 @@
     "type": "git",
     "url": "https://github.com/mbejda/firedeploy"
   },
-
   "bin": {
     "firedeploy": "bin/cli.js"
   },
@@ -32,6 +31,7 @@
     "colors": "1.1.2",
     "commander": "2.12.1",
     "glob": "7.1.2",
+    "lodash": "4.17.4",
     "request": "2.83.0",
     "tar": "4.0.2",
     "tmp": "0.0.33"

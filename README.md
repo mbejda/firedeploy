@@ -4,7 +4,7 @@
 Lightweight command line tool and dependency module for deploying single page applications to Firebase. This module was built for environments that have memory constraints like serverless environments. I.E AWS Lambda, Google Functions. It does not use heavy dependencies such as `firebase`, `firebase-tools` (143mb), `firebase-admin` and weighs < 6mb. 
 
 - Does not use Firebase modules
-- Size < 6mb
+- Size < 10mb
 - Has only 6 dependencies
 - Can be used as a module dependency or as a CLI
 
@@ -63,7 +63,7 @@ const FireDeploy = require('firedeploy');
      .setVersion("new version")
      .setMessage("New Message")
      .setProjectId("firebaseProject")
-     .setCWD("some/project/directoru")
+     .setCWD("some/project/directory")
      .setToken("ciToken").prepareUpload().then((preparedFiles) => {
          fireDeploy.upload(preparedFiles).then(_ => {
              fireDeploy.release().then(_ => {
