@@ -1,6 +1,6 @@
 {
   "name": "firedeploy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight command line tool and dependency module for deploying single page applications to Firebase.",
   "main": "index.js",
   "scripts": {
