@@ -27,7 +27,7 @@ Usage Example :
      releaseMessage: "hello world!",
      cwd: "./path/to/index.html directory",
      projectId: "Firebase Project Name",
-     token: "Firebase CI Token,
+     token: "Firebase CI Token",
      debug: false
  };
 
