@@ -1,6 +1,6 @@
 {
   "name": "firedeploy",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Small CLI for deploying single page applications to Firebase.",
   "main": "index.js",
   "scripts": {
