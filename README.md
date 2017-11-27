@@ -86,8 +86,7 @@ const FireDeploy = require('firedeploy');
 
 ```
 ## CLI
-It be used as a command line tool:
-Example Usage:
+Example Usage :
 ```bash
 $ firedeploy hosting -m "Message" -c "/fireDeploy/spec/test" -p "project name" -t "CI Token"
 ```
