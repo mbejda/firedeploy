@@ -1,0 +1,39 @@
+{
+  "name": "firedeploy",
+  "version": "1.0.0",
+  "description": "Lightweight command line tool and dependency module for deploying single page applications to Firebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine test"
+  },
+  "author": "Milos Bejda <milos.bejda@outlook.com> (https://mbejda.com/)",
+  "homepage": "https://mbejda.com/",
+  "license": "MIT",
+  "keywords": [
+    "admin",
+    "Firebase",
+    "firebase deploy",
+    "firedeploy",
+    "firebase serverless",
+    "angularfire",
+    "angularfire deployment",
+    "angularfire light",
+    "firebase light"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbejda/firedeploy"
+  },
+
+  "bin": {
+    "firedeploy": "bin/cli.js"
+  },
+  "dependencies": {
+    "colors": "1.1.2",
+    "commander": "2.12.1",
+    "glob": "7.1.2",
+    "request": "2.83.0",
+    "tar": "4.0.2",
+    "tmp": "0.0.33"
+  }
+}
