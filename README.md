@@ -5,7 +5,7 @@ Lightweight command line tool and dependency module for deploying single page ap
 
 - Does not use Firebase modules
 - Size < 10mb
-- Has only 6 dependencies
+- Only has 7 dependencies
 - Can be used as a module dependency or as a CLI
 
 ### Installation
