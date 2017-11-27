@@ -1,7 +1,7 @@
 {
   "name": "firedeploy",
-  "version": "1.0.6",
-  "description": "Lightweight command line tool and dependency module for deploying single page applications to Firebase.",
+  "version": "1.0.8",
+  "description": "Small CLI for deploying single page applications to Firebase.",
   "main": "index.js",
   "scripts": {
     "test": "jasmine test"
