@@ -1,7 +1,7 @@
 ![](http://res.cloudinary.com/lqyghlh2f/image/upload/v1511753169/Copy_of_oh_javascript_es3xi0.png)
 
 ## FireDeploy
-Lightweight command line tool and dependency module for deploying single page applications to Firebase. This module was built for environments that have memory constraints like serverless environments. I.E AWS Lambda, Google Functions. It does not use heavy dependencies such as `firebase`, `firebase-tools` (143mb), `firebase-admin` and weighs < 6mb. 
+Small CLI tool that can also be used as a dependency module for deploying single page applications to Firebase. This module was built for serverless environments or environmnents that have memory constraints. I.E AWS Lambda, Google Functions. It does not use heavy dependencies such as `firebase`, `firebase-tools` (143mb), `firebase-admin` and weighs < 10mb. 
 
 - Does not use Firebase modules
 - Size < 10mb
