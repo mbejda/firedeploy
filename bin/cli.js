@@ -8,7 +8,6 @@ const FireDeploy = require('../index');
 
 program
     .command('hosting')
-    .version(CLI_VERSION)
     .description('Lightweight command line tool for deploying single page applications to Firebase')
     .option("-rv, --releaseVersion [rv]", "version of the deployment")
     .option("-m, --message [m]", "deployment message","Deployed by FireDeploy")
@@ -16,7 +15,8 @@ program
     .option("-p, --projectId <p>", "Firebase project name")
     .option("-t, --token <t>", "Firebase CI token")
     .option("-d, --debug [d]", "Debug requests",false)
-    .action(function(env, options) {
+    .action(function(options,env) {
+
         return new Promise((resolve, reject) => {
 
             let settings = {
