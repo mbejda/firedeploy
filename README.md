@@ -2,7 +2,7 @@
 
 ## FireDeploy
 
-FireDeploy is a small CLI tool which can also be used as a dependency module for deploying single page applications to Firebase from serverless environments. It is a lightweight alternative to firebase-tools for environments that have memory constraints. I.E AWS Lambda, Google Functions. It does not rely on heavy dependencies such as firebase, firebase-tools (143mb), firebase-admin and weighs < 10mb.
+FireDeploy is a small CLI tool which can also be used as a dependency module for deploying single page applications to Firebase from serverless environments. It is a lightweight alternative to firebase-tools that was built for environments that have memory constraints. I.E AWS Lambda, Google Functions. It does not rely on heavy dependencies such as firebase, firebase-tools(190M), firebase-admin and weighs < 10mb.
 
 - Does not rely on Firebase modules
 - Size < 10mb
@@ -18,6 +18,12 @@ npm install firedeploy --save
 ```bash
 npm install -g firedeploy
 ```
+## CLI
+Example Usage :
+```bash
+$ firedeploy hosting -m "Message" -c "/fireDeploy/spec/test" -p "project name" -t "CI Token"
+```
+
 
 ### Module
 Usage Example :
@@ -86,9 +92,5 @@ const FireDeploy = require('firedeploy');
      })
 
 ```
-## CLI
-Example Usage :
-```bash
-$ firedeploy hosting -m "Message" -c "/fireDeploy/spec/test" -p "project name" -t "CI Token"
-```
+
 If you are experiencing any issues please create an issue ticket or send me a tweet. [@notmilobejda](https://twitter.com/notMiloBejda)
